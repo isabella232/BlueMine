@@ -1,0 +1,40 @@
+// ---------------------
+// The IFAD Unicorn
+//
+
+$unicorn-cyan:   #11b5d5;
+$unicorn-green:  #3bae15;
+$unicorn-yellow: #f59400;
+$unicorn-orange: #eb5400;
+$unicorn-red:    #df0221;
+
+.unicorn {
+  width: 100%;
+  height: 4px;
+
+  > div {
+    width: 20%;
+    height: 100%;
+    float: left;
+
+    &.cyan {
+      background-color: $unicorn-cyan;
+    }
+
+    &.green {
+      background-color: $unicorn-green;
+    }
+
+    &.yellow {
+      background-color: $unicorn-yellow;
+    }
+
+    &.orange {
+      background-color: $unicorn-orange;
+    }
+
+    &.red {
+      background-color: $unicorn-red;
+    }
+  }
+}
