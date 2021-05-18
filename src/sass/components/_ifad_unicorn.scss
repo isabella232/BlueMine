@@ -12,6 +12,11 @@ $unicorn-red:    #df0221;
   width: 100%;
   height: 4px;
 
+  @media screen and (max-width: $redmine-responsive-max) {
+    position: absolute;
+    top: $responsive-header-height;
+  }
+
   > div {
     width: 20%;
     height: 100%;
