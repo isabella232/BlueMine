@@ -59,7 +59,7 @@ h1 {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: $font-weight-heavy-bold;
   line-height: $line-height-large * .825;
 }
 
